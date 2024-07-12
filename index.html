@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"    href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body >
+  
+
+    <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+     </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="sec">
+<header> 
+
+    <a href="index.html" class="logo"><img src="ph/nm logo png finish-5.png" alt=""></a>
+
+    <ul class="navbar">
+        <li class="active"><a href="index.html" >Home</a></li>
+        <li><a href="index2.html">Products</a></li>
+        <li><a href="index3.html">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About Us</a></li>
+
+    </ul>
+    <div class="main">
+     <a href="login/login.html" class="user"> <i class="ri-user-fill"></i>Sign In</a>   
+     <a href="sign in/sign up.html"> Regester</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+
+    <!--js link--->
+    <script type="text/javascript" src="script.js"></script>
+
+
+
+
+<div class="content" >
+<div class="textBox" >
+    <h2>That's What <span>I Like</span></h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum enim minima eveniet assumenda blanditiis necessitatibus dolorem repellendus qui unde? A perferendis voluptatem distinctio enim corrupti.</p>
+    <a href="index2.html"> View All Products</a>
+</div>
+<div class="imgBox">
+    <img src="ph/IMG_6321.png" alt="" class="PEPSI">
+</div>
+<section class="social">
+    <div class="wrapper">
+        <div class="icon facebook">
+           <div class="tooltip">
+              Facebook
+           </div>
+           <span><a href="https://www.facebook.com/profile.php?id=61558937273537" target="_blank"><i class="fab fa-facebook-f"></i></a></span>
+        </div>
+        <div class="icon instagram">
+           <div class="tooltip">
+              Instagram
+           </div>
+           <span><a href="https://www.instagram.com/nmsoft.drink/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+        </div>
+        <div class="icon Whatsapp">
+            <div class="tooltip">
+               Whatsapp
+            </div>
+            <span><a href="(17) WhatsApp.html" target="_blank"> <i class="fab fa-whatsapp"></i></a></span>
+         </div>
+
+         <div class="icon tiktok">
+            <div class="tooltip">
+               tiktok
+            </div>
+            <span><a href="https://www.tiktok.com/@nmsoft.drink?is_from_webapp=1&sender_device=pc" target="_blank" ><i class="fab fa-tiktok"></i></a></span>
+         </div>
+</section>
+
+<div class="thumb">
+    <li><img src="ph/IMG_6321.png" alt="" onClick="imgSlider('ph/IMG_6321.png'); changeColor('#47894b') "></li>
+    <li><img src="ph/IMG_6322.png" alt="" onClick="imgSlider('ph/IMG_6322.png'); changeColor('#FF775E') "></li>
+    <li><img src="ph/IMG_6326.png" alt="" onClick="imgSlider('ph/IMG_6326.png'); changeColor('#ffbd35') "></li>
+    <li><img src="ph/6.png" alt=""               onclick="imgSlider('ph/6.png'); changeColor('#8FD5D5') "></li>
+</div>
+</div>
+ <div></div>
+ 
+
+
+</section>
+
+
+
+
+
+<script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.PEPSI').src = anything ;
+    
+    }
+    function changeColor(color){
+    const sec =  document.querySelector('.sec')
+    sec.style.background = color;
+    }
+
+  
+</script>
+ 
+</body>
+</html>
